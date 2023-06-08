@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:newagape/widgets/big_text.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({super.key});
@@ -24,7 +25,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
           children: [
             Column(
               children: [
-                Text("serach for food")
+              BigText(text: "search for food")
 
               ],
             ),
