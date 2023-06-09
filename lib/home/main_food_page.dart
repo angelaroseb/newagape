@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
+import 'package:newagape/home/foodpagebody.dart';
+import 'package:newagape/utils/colors.dart';
 import 'package:newagape/widgets/big_text.dart';
 
 class MainFoodPage extends StatefulWidget {
@@ -25,7 +27,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
           children: [
             Column(
               children: [
-              BigText(text: "search for food")
+              BigText(text: "search for food",color: AppColors.mainColor,)
 
               ],
             ),
@@ -36,7 +38,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 child: Icon(Icons.search,color: Colors.white,),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
-                  color: Colors.blue,
+                  color: AppColors.mainColor,
                 ),
               ),
             )
@@ -45,7 +47,8 @@ class _MainFoodPageState extends State<MainFoodPage> {
       ),
 
 
-        )],
+        ),
+        FoodPageBody(),],
        
       ) ,
      

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:newagape/home/main_food_page.dart';
+import 'package:newagape/utils/colors.dart';
+import 'package:newagape/widgets/big_text.dart';
 
 void main() {
   runApp(const MyApp());
